@@ -1,0 +1,454 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000006, day=000000000014, hour=000000000021, min=000000000008, sec=000000000014)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000014897, lin=000000000428, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=28
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=96
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='GndX=\'50mm\' GndY=\'90mm\' H=\'3.7mm\' L=\'16.5m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=87)
+		Map(V='GndX=\'50mm\' GndY=\'90mm\' H=\'3.8mm\' L=\'16.2m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=35)
+		Map(V='GndX=\'50mm\' GndY=\'90mm\' H=\'3.8mm\' L=\'16.5m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=84)
+		Map(V='GndX=\'50mm\' GndY=\'90mm\' H=\'3.8mm\' L=\'16.6m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=89)
+		Map(V='GndX=\'50mm\' GndY=\'90mm\' H=\'3.8mm\' L=\'16.7m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=88)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=35, Ver=28, Dir='DV35_V28.imesh/')
+		M(VID=84, Ver=28, Dir='DV84_V28.imesh/')
+		M(VID=87, Ver=28, Dir='DV87_V28.imesh/')
+		M(VID=88, Ver=28, Dir='DV88_V28.imesh/')
+		M(VID=89, Ver=28, Dir='DV89_V28.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=35, Ver=28, Dir='DV35_MI0_V28.sd/')
+			MI(VID=84, Ver=28, Dir='DV84_MI0_V28.sd/')
+			MI(VID=87, Ver=28, Dir='DV87_MI0_V28.sd/')
+			MI(VID=88, Ver=28, Dir='DV88_MI0_V28.sd/')
+			MI(VID=89, Ver=28, Dir='DV89_MI0_V28.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=32, Instance=\'GndX=\\\'50mm\\\' GndY=\\\'90mm\\\' H=\\\'3.7mm\\\' L=\\\'16.5m\\\' Lambda=\\\'122.4mm\\\' Offset=\\\'12mm\\\' S=\\\'5mm\\\' SubH=\\\'0.8mm\\\' W=\\\'1mm\\\'\', Solution=-3, VersionID=0)'='SolutionBlock8'
+	'SolutionKey(SimSetup=32, Instance=\'GndX=\\\'50mm\\\' GndY=\\\'90mm\\\' H=\\\'3.8mm\\\' L=\\\'16.2m\\\' Lambda=\\\'122.4mm\\\' Offset=\\\'12mm\\\' S=\\\'5mm\\\' SubH=\\\'0.8mm\\\' W=\\\'1mm\\\'\', Solution=-3, VersionID=0)'='SolutionBlock6'
+	'SolutionKey(SimSetup=32, Instance=\'GndX=\\\'50mm\\\' GndY=\\\'90mm\\\' H=\\\'3.8mm\\\' L=\\\'16.5m\\\' Lambda=\\\'122.4mm\\\' Offset=\\\'12mm\\\' S=\\\'5mm\\\' SubH=\\\'0.8mm\\\' W=\\\'1mm\\\'\', Solution=-3, VersionID=0)'='SolutionBlock7'
+	'SolutionKey(SimSetup=32, Instance=\'GndX=\\\'50mm\\\' GndY=\\\'90mm\\\' H=\\\'3.8mm\\\' L=\\\'16.6m\\\' Lambda=\\\'122.4mm\\\' Offset=\\\'12mm\\\' S=\\\'5mm\\\' SubH=\\\'0.8mm\\\' W=\\\'1mm\\\'\', Solution=-3, VersionID=0)'='SolutionBlock10'
+	'SolutionKey(SimSetup=32, Instance=\'GndX=\\\'50mm\\\' GndY=\\\'90mm\\\' H=\\\'3.8mm\\\' L=\\\'16.7m\\\' Lambda=\\\'122.4mm\\\' Offset=\\\'12mm\\\' S=\\\'5mm\\\' SubH=\\\'0.8mm\\\' W=\\\'1mm\\\'\', Solution=-3, VersionID=0)'='SolutionBlock9'
+	'SolutionKey(SimSetup=32, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=32, Instance=\'SolutionDefinition\', Solution=33, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=32, Instance=\'SolutionDefinition\', Solution=34, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=32, Instance=\'SolutionDefinition\', Solution=38, VersionID=0)'='SolutionBlock5'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SimSetupID=32
+	SimSetupName='Setup1'
+	VersionID=0
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=35, Ver=0, Dir='DV35_S32_V0.cmesh/')
+		M(VID=84, Ver=0, Dir='DV84_S32_V0.cmesh/')
+		M(VID=87, Ver=0, Dir='DV87_S32_V0.cmesh/')
+		M(VID=88, Ver=0, Dir='DV88_S32_V0.cmesh/')
+		M(VID=89, Ver=0, Dir='DV89_S32_V0.cmesh/')
+	$end 'CurrMeshes'
+	$begin 'RadFieldSurfMeshes'
+		SM(VID=35, Ver=0, Dir='DV35_S32_V0.sfmesh/')
+		SM(VID=84, Ver=0, Dir='DV84_S32_V0.sfmesh/')
+		SM(VID=87, Ver=0, Dir='DV87_S32_V0.sfmesh/')
+		SM(VID=88, Ver=0, Dir='DV88_S32_V0.sfmesh/')
+		SM(VID=89, Ver=0, Dir='DV89_S32_V0.sfmesh/')
+	$end 'RadFieldSurfMeshes'
+	$begin 'WaveAdapt'
+		WA(VID=35, Ver=0, A=1)
+		WA(VID=84, Ver=0, A=1)
+		WA(VID=87, Ver=0, A=1)
+		WA(VID=88, Ver=0, A=1)
+		WA(VID=89, Ver=0, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=35, Ver=0, P=7)
+		LP(VID=84, Ver=0, P=8)
+		LP(VID=87, Ver=0, P=6)
+		LP(VID=88, Ver=0, P=6)
+		LP(VID=89, Ver=0, P=7)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=35, Ver=0, File='DV35_S32_V0.profile')
+		P(VID=84, Ver=0, File='DV84_S32_V0.profile')
+		P(VID=87, Ver=0, File='DV87_S32_V0.profile')
+		P(VID=88, Ver=0, File='DV88_S32_V0.profile')
+		P(VID=89, Ver=0, File='DV89_S32_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=35, Ver=0, Dir='DV35_S32_MI0_V0.sd/')
+			MI(VID=84, Ver=0, Dir='DV84_S32_MI0_V0.sd/')
+			MI(VID=87, Ver=0, Dir='DV87_S32_MI0_V0.sd/')
+			MI(VID=88, Ver=0, Dir='DV88_S32_MI0_V0.sd/')
+			MI(VID=89, Ver=0, Dir='DV89_S32_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='AdaptivePass'
+	SolutionID=33
+	V=0
+	$begin 'States'
+		F(VID=35, Ver=0)
+		F(VID=84, Ver=0)
+		F(VID=87, Ver=0)
+		F(VID=88, Ver=0)
+		F(VID=89, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2400000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=35, Ver=0, File='DV35_SOL33_M1_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL33_M1_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL33_M1_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL33_M1_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL33_M1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=35, Ver=0, File='DV35_SOL33_M2_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL33_M2_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL33_M2_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL33_M2_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL33_M2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=35, Ver=0, File='DV35_SOL33_M3_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL33_M3_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL33_M3_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL33_M3_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL33_M3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=35, Ver=0, File='DV35_SOL33_M4_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL33_M4_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL33_M4_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL33_M4_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL33_M4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=35, Ver=0, File='DV35_SOL33_M5_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL33_M5_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL33_M5_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL33_M5_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL33_M5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=35, Ver=0, File='DV35_SOL33_M6_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL33_M6_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL33_M6_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL33_M6_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL33_M6_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			M(VID=35, Ver=0, File='DV35_SOL33_M7_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL33_M7_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL33_M7_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			M(VID=84, Ver=0, File='DV84_SOL33_M8_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'A'
+		$begin 'SubData'
+			ID=0
+			A(VID=35, Ver=0, File='DV35_SOL33_A0_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A0_V0.sd')
+			A(VID=87, Ver=0, File='DV87_SOL33_A0_V0.sd')
+			A(VID=88, Ver=0, File='DV88_SOL33_A0_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A0_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			A(VID=35, Ver=0, File='DV35_SOL33_A1_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A1_V0.sd')
+			A(VID=87, Ver=0, File='DV87_SOL33_A1_V0.sd')
+			A(VID=88, Ver=0, File='DV88_SOL33_A1_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			A(VID=35, Ver=0, File='DV35_SOL33_A2_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A2_V0.sd')
+			A(VID=87, Ver=0, File='DV87_SOL33_A2_V0.sd')
+			A(VID=88, Ver=0, File='DV88_SOL33_A2_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			A(VID=35, Ver=0, File='DV35_SOL33_A3_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A3_V0.sd')
+			A(VID=87, Ver=0, File='DV87_SOL33_A3_V0.sd')
+			A(VID=88, Ver=0, File='DV88_SOL33_A3_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			A(VID=35, Ver=0, File='DV35_SOL33_A4_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A4_V0.sd')
+			A(VID=87, Ver=0, File='DV87_SOL33_A4_V0.sd')
+			A(VID=88, Ver=0, File='DV88_SOL33_A4_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			A(VID=35, Ver=0, File='DV35_SOL33_A5_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A5_V0.sd')
+			A(VID=87, Ver=0, File='DV87_SOL33_A5_V0.sd')
+			A(VID=88, Ver=0, File='DV88_SOL33_A5_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			A(VID=35, Ver=0, File='DV35_SOL33_A6_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A6_V0.sd')
+			A(VID=87, Ver=0, File='DV87_SOL33_A6_V0.sd')
+			A(VID=88, Ver=0, File='DV88_SOL33_A6_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A6_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			A(VID=35, Ver=0, File='DV35_SOL33_A7_V0.sd')
+			A(VID=84, Ver=0, File='DV84_SOL33_A7_V0.sd')
+			A(VID=89, Ver=0, File='DV89_SOL33_A7_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			A(VID=84, Ver=0, File='DV84_SOL33_A8_V0.sd')
+		$end 'SubData'
+	$end 'A'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='LastAdaptive'
+	SolutionID=34
+	V=0
+	$begin 'States'
+		F(VID=35, Ver=0)
+		F(VID=84, Ver=0)
+		F(VID=87, Ver=0)
+		F(VID=88, Ver=0)
+		F(VID=89, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2400000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=35, Ver=0, File='DV35_SOL34_M0_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL34_M0_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL34_M0_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL34_M0_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL34_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(66, 2400000000)
+		$begin 'DataMap'
+			VID=35
+			Ver=0
+			F(DblID=66, Dir='DV35_S34_V0_F66/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=84
+			Ver=0
+			F(DblID=66, Dir='DV84_S34_V0_F66/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=87
+			Ver=0
+			F(DblID=66, Dir='DV87_S34_V0_F66/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=88
+			Ver=0
+			F(DblID=66, Dir='DV88_S34_V0_F66/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=89
+			Ver=0
+			F(DblID=66, Dir='DV89_S34_V0_F66/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock10'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='20'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=1418)
+	c(passno=2, numtets=1849, magdeltas=0.9988443495223501)
+	c(passno=3, numtets=2407, magdeltas=0.6561223158918133)
+	c(passno=4, numtets=3133, magdeltas=0.08208616018358336)
+	c(passno=5, numtets=4073, magdeltas=0.06688207685565552)
+	c(passno=6, numtets=5297, magdeltas=0.02048226616417341)
+	c(passno=7, numtets=6893, magdeltas=0.009411165604397738)
+$end 'SolutionBlock10'
+$begin 'SolutionBlock5'
+	SolutionName='Sweep'
+	SolutionID=38
+	V=0
+	$begin 'States'
+		F(VID=35, Ver=0)
+		F(VID=84, Ver=0)
+		F(VID=87, Ver=0)
+		F(VID=88, Ver=0)
+		F(VID=89, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=1800000000
+		StopFreq=3000000000
+		StepSize=10000000
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=35, Ver=0, File='DV35_SOL38_M0_V0.sd')
+			M(VID=84, Ver=0, File='DV84_SOL38_M0_V0.sd')
+			M(VID=87, Ver=0, File='DV87_SOL38_M0_V0.sd')
+			M(VID=88, Ver=0, File='DV88_SOL38_M0_V0.sd')
+			M(VID=89, Ver=0, File='DV89_SOL38_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock8'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='20'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=1397)
+	c(passno=2, numtets=1821, magdeltas=0.7817656028017807)
+	c(passno=3, numtets=2372, magdeltas=0.4443890789583367)
+	c(passno=4, numtets=3089, magdeltas=0.09225492414553597)
+	c(passno=5, numtets=4017, magdeltas=0.06688771361526907)
+	c(passno=6, numtets=5227, magdeltas=0.01650786827405155)
+$end 'SolutionBlock8'
+$begin 'SolutionBlock7'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='20'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=1407)
+	c(passno=2, numtets=1831, magdeltas=1.039247456289504)
+	c(passno=3, numtets=2385, magdeltas=0.5634952574960905)
+	c(passno=4, numtets=3105, magdeltas=0.1287028281002032)
+	c(passno=5, numtets=4041, magdeltas=0.06693210215077255)
+	c(passno=6, numtets=5257, magdeltas=0.03938352264396346)
+	c(passno=7, numtets=6837, magdeltas=0.02435750882114754)
+	c(passno=8, numtets=8899, magdeltas=0.006541448494679787)
+$end 'SolutionBlock7'
+$begin 'SolutionBlock9'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='20'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=1359)
+	c(passno=2, numtets=1773, magdeltas=0.89464626574768)
+	c(passno=3, numtets=2308, magdeltas=0.4756955735303045)
+	c(passno=4, numtets=3001, magdeltas=0.2603061654290869)
+	c(passno=5, numtets=3903, magdeltas=0.04688067012569503)
+	c(passno=6, numtets=5078, magdeltas=0.01115954627248985)
+$end 'SolutionBlock9'
+$begin 'SolutionBlock6'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='20'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=1325)
+	c(passno=2, numtets=1723, magdeltas=0.301786042674675)
+	c(passno=3, numtets=2246, magdeltas=0.7458934532378977)
+	c(passno=4, numtets=2924, magdeltas=0.2457898625626069)
+	c(passno=5, numtets=3806, magdeltas=0.03452702333606061)
+	c(passno=6, numtets=4952, magdeltas=0.03307061109878359)
+	c(passno=7, numtets=6441, magdeltas=0.01710533819637963)
+$end 'SolutionBlock6'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock6(pos=14318, lin=412, lvl=0)
+		BlockMapName(pos=1896, lin=36, lvl=0)
+		SolutionBlock10(pos=11246, lin=313, lvl=0)
+		SolutionBlock3(pos=5215, lin=101, lvl=0)
+		SolutionBlock4(pos=9961, lin=252, lvl=0)
+		SolutionBlock5(pos=11830, lin=329, lvl=0)
+		SolutionBlock2(pos=3596, lin=48, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock8(pos=12637, lin=365, lvl=0)
+		SolutionBlock7(pos=13160, lin=380, lvl=0)
+		SolutionBlock9(pos=13798, lin=397, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=14897, lin=428, lvl=0)
+	$end '$index$'
+$end '$index$'

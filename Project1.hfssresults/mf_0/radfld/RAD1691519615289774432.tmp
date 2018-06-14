@@ -1,0 +1,20 @@
+$begin 'RFSM'
+	$begin 'RadSurfs'
+	$end 'RadSurfs'
+	$begin 'CustomSurfs'
+	$end 'CustomSurfs'
+	$begin 'SetupSolns'
+		$begin 'SetupSolnEntry'
+			Key(ParentID=0, VersID=1, ParentID=34, VersID=0, DesVarn='GndX=\'50mm\' GndY=\'90mm\' H=\'3.8mm\' L=\'16.6m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', IntrVarn='Freq=\'2.4GHz\'')
+			SetupSolnFBOFile='4A765196152898151137.tmp'
+		$end 'SetupSolnEntry'
+		$begin 'SetupSolnEntry'
+			Key(ParentID=2, VersID=3, ParentID=34, VersID=0, DesVarn='GndX=\'50mm\' GndY=\'90mm\' H=\'3.8mm\' L=\'16.6m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', IntrVarn='Freq=\'2.4GHz\'')
+			SetupSolnFBOFile='4B885196152898159539.tmp'
+		$end 'SetupSolnEntry'
+		$begin 'SetupSolnEntry'
+			Key(ParentID=4, VersID=5, ParentID=34, VersID=0, DesVarn='GndX=\'50mm\' GndY=\'90mm\' H=\'3.8mm\' L=\'16.6m\' Lambda=\'122.4mm\' Offset=\'12mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'1mm\'', IntrVarn='Freq=\'2.4GHz\'')
+			SetupSolnFBOFile='4B135196152898155938.tmp'
+		$end 'SetupSolnEntry'
+	$end 'SetupSolns'
+$end 'RFSM'

@@ -1,0 +1,92 @@
+$begin 'CacheDataVersion'
+	DataVersion=26
+$end 'CacheDataVersion'
+$begin 'InterrogationCache'
+	Version=1
+	$begin 'VariableValues'
+		L='16.6m'
+		H='3.8mm'
+		S='5mm'
+		W='1mm'
+		SubH='0.8mm'
+		GndX='50mm'
+		GndY='90mm'
+		Offset='12mm'
+		Lambda='122.4mm'
+	$end 'VariableValues'
+	$begin 'ValidationStatus'
+		$begin 'Options'
+			EntityCheckLevel='Strict'
+			IgnoreUnclassifiedObjects=false
+			SkipIntersectionChecks=false
+		$end 'Options'
+		Status=true
+	$end 'ValidationStatus'
+	$begin 'BodyCaches'
+		$begin '6'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'Properties'
+				Volume='0'
+				Area='4500'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: -25, -90, 0]
+				High[3: 25, 0, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '6'
+		$begin '18'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'BoundingBox'
+				Low[3: -25, -90, 0]
+				High[3: 25, 20, 0.80000000000000004]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '18'
+		$begin '82'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'BoundingBox'
+				Low[3: -4.6000000000000014, -1.2864981197413096e-016, -2.2204460492503131e-016]
+				High[3: 19, 4.7999999999999998, 0.80000000000000004]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '82'
+		$begin '107'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'BoundingBox'
+				Low[3: 12, -1.2864981197413096e-016, -2.2204460492503131e-016]
+				High[3: 13, 9.9579925010295963e-017, 0.80000000000000004]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '107'
+		$begin '119'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'BoundingBox'
+				Low[3: -86.200000000000003, -151.19999999999999, -61.200000000000003]
+				High[3: 86.200000000000003, 81.199999999999989, 62]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '119'
+	$end 'BodyCaches'
+$end 'InterrogationCache'
